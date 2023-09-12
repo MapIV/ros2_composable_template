@@ -1,10 +1,10 @@
 # composable_sample
 
-Subscribes to a ROS2 PointCloud2 topic and stores received messages to Binary PCD files.
+ROS2 Composable Sample node. Subscribes to a PointCloud2 topic and publishes a PointCloud2 Topic.
 
 How to launch:
 ```
-ros2 launch ros2_cloud_to_pcd cloud_to_pcd.xml \
+ros2 launch ros2_composable_template composable_sample.launch.xml \
     input/topic:=/lidar/pointcloud \
     output/topic:=/processed/pointcloud
 ```
